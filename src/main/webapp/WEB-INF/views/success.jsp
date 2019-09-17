@@ -8,9 +8,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>成功</title>
+    <%
+        pageContext.setAttribute("APP_PATH", request.getContextPath());
+    %>
 </head>
 <body>
-    <h3>6546545456</h3>
+    <a href="${APP_PATH}/getError">测试</a>
 </body>
 </html>

@@ -35,4 +35,10 @@ public class UserController {
             return "error";
         }
     }
+
+    @RequestMapping(value ="/getError")
+    public String getError(){
+        return "error";
+    }
+
 }
