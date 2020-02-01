@@ -19,6 +19,7 @@ public class AutoLoginFilter implements HandlerInterceptor {
 			Object user1 = request.getSession().getAttribute("user");
 			// 还有，有效。
 			if (user1 != null) {
+				System.out.println("456");
 				return true;
 			} else {
 				request.setAttribute("msg","没有权限请先登陆");
