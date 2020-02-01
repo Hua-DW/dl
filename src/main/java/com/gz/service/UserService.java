@@ -15,7 +15,7 @@ public class UserService {
 
     public User getUser(String username){
 
-        System.out.println("123562");
+        System.out.println("1235621");
         return userMapper.getUser(username);
 
     }
