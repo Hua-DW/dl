@@ -15,7 +15,7 @@ public class UserService {
 
     public User getUser(String username){
 
-        System.out.println("删除github");
+        System.out.println("github-----小号");
         return userMapper.getUser(username);
 
     }
