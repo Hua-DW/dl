@@ -15,7 +15,7 @@ public class UserService {
 
     public User getUser(String username){
 
-        System.out.println("1235621");
+        System.out.println("分支后的主线");
         return userMapper.getUser(username);
 
     }
