@@ -15,7 +15,7 @@ public class UserService {
 
     public User getUser(String username){
 
-        System.out.println("分支后的主线------2");
+        System.out.println("删除github");
         return userMapper.getUser(username);
 
     }
